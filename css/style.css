@@ -1,0 +1,143 @@
+body{
+    width: 1400px;
+
+}
+
+.haikei{
+    /* タイトルとはじめるを中央にするために、背景を親要素 (比較する対象) とする */
+    position: relative;
+    
+}
+
+.setumei{
+    text-align: center;
+}
+
+/* タイトルを白に */
+.taitoru{
+    color: white;
+    font-size: 50px;
+
+    padding-top: 100px;
+
+
+    /* タイトル部分をデフォルトのカーソルのままにする */
+    /* ここから */
+    cursor: pointer;
+    cursor: default;
+    /* ここまで */
+
+    /* タイトルとはじめるを中央にするために、背景を親要素 (比較する対象) とする */
+    /* ここから */
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    -webkit-transform : translate(-50%,-50%);
+    transform : translate(-50%,-50%);
+    /* ここまで */
+}
+
+
+.hajimeru{
+    color: white;
+    font-size: 24px;
+
+    /* 親要素 (ここでは背景画像) に対して中央に持ってくる */
+    /* ここから */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform : translate(-50%,-50%);
+    transform : translate(-50%,-50%);
+    /* ここまで */
+    
+
+
+    /* 「はじめる」 を0.8秒間隔で点滅させる */
+    animation: blinkAnime 0.8s infinite alternate;
+
+    /* 「はじめる」部分を指マークにする */
+    /* ここから */
+    cursor: pointer;
+    cursor: hand;
+    /* ここまで */
+}
+
+/* 「はじめる」を点滅させる時には白から黒へ点滅させる */
+@keyframes blinkAnime{
+    0% { color: white }
+  100% { color: black }
+ }
+
+/* はじめる部分に下線を引くhoverアクション */
+/* ここから */
+ .hajimeru{
+    text-decoration: none;
+    width: 120px;
+ }
+
+ .hajimeru:hover{
+    text-decoration: underline;
+ }
+ /* ここまで */
+
+
+
+
+
+.haikei1{
+    margin-top: 100px;
+    background-color: black;
+    height: 30px;
+    width: auto;
+}
+
+.haikei2{
+    background: linear-gradient(-135deg, #505457, grey);
+    height: 100px;
+    width: auto;
+    position: relative;
+
+}
+
+.haikei3{
+    background-color: grey;
+    height: 30px;
+    width: auto;
+}
+
+.nagareru_te{
+
+}
+
+
+}
+
+.gu11{
+
+}
+
+
+
+    
+.hatena_box{
+    width: 60px;
+    position: absolute;
+    top: 10%;
+    left: 100px;
+}
+
+
+.jibun_te{
+    text-align: center;
+}
+
+.jibun_gu, .jibun_ch, .jibun_pa{
+    display: flex;
+    /* フレックスボックス　縦に並べる */
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    display: inline-block;
+}
+

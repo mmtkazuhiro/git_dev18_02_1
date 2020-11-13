@@ -1,0 +1,1230 @@
+
+.gu1{
+    /* linearを付けると一定速度になる */
+    /* 2000pxを5sで動くつまり、400px/sである */
+    /* bodyのwidth1400px-100px (leftのスペース) =1300pxは3.25s後に到達する */
+    /* それにdelayが2sあるので、理論的には5.25s後に手の？部分に到達するはずである */
+    /* -3.93s */
+    animation: slide 5s linear;
+    animation-delay: 9.25s;
+}
+
+.gu2{
+
+    animation: slide 5s linear;
+    animation-delay: 10.82s;
+}
+
+.gu3{
+
+    animation: slide 5s linear;
+    animation-delay: 12.48s;
+}
+
+.gu4{
+
+    animation: slide 5s linear;
+    animation-delay: 14.09s;
+}
+
+.gu5{
+
+    animation: slide 5s linear;
+    animation-delay: 15.63s;
+}
+
+.gu6{
+
+    animation: slide 5s linear;
+    animation-delay: 17.32s;
+}
+
+.gu7{
+
+    animation: slide 5s linear;
+    animation-delay: 18.94s;
+}
+
+.gu8{
+
+    animation: slide 5s linear;
+    animation-delay: 20.49s;
+}
+
+.gu9{
+
+    animation: slide 5s linear;
+    animation-delay: 21.39s;
+}
+
+.gu10{
+
+    animation: slide 5s linear;
+    animation-delay: 22.23s;
+}
+
+.gu11a{
+    animation: slide 5s linear;
+    animation-delay: 23.06s;
+}
+
+.gu12{
+
+    animation: slide 5s linear;
+    animation-delay: 23.95s;
+}
+
+.gu13{
+
+    animation: slide 5s linear;
+    animation-delay: 24.79s;
+}
+
+.gu14{
+
+    animation: slide 5s linear;
+    animation-delay: 25.49s;
+}
+
+.gu15{
+
+    animation: slide 5s linear;
+    animation-delay: 26.27s;
+}
+
+.gu16{
+
+    animation: slide 5s linear;
+    animation-delay: 27.08s;
+}
+
+.gu17{
+
+    animation: slide 5s linear;
+    animation-delay: 27.82s;
+}
+
+.gu18{
+
+    animation: slide 5s linear;
+    animation-delay: 28.68s;
+}
+
+.gu19{
+
+    animation: slide 5s linear;
+    animation-delay: 29.45s;
+}
+
+.gu20{
+
+    animation: slide 5s linear;
+    animation-delay: 30.26s;
+}
+
+.gu21{
+    animation: slide 5s linear;
+    animation-delay: 31.9s;
+}
+
+.gu22a{
+
+    animation: slide 5s linear;
+    animation-delay: 32.67s;
+}
+
+.gu23{
+
+    animation: slide 5s linear;
+    animation-delay: 33.41s;
+}
+
+.gu24{
+
+    animation: slide 5s linear;
+    animation-delay: 34.27s;
+}
+
+.gu25{
+
+    animation: slide 5s linear;
+    animation-delay: 35.13s;
+}
+
+.gu26{
+
+    animation: slide 5s linear;
+    animation-delay: 35.85s;
+}
+
+.gu27{
+
+    animation: slide 5s linear;
+    animation-delay: 36.71s;
+}
+
+.gu28{
+
+    animation: slide 5s linear;
+    animation-delay: 37.46s;
+}
+
+.gu29{
+
+    animation: slide 5s linear;
+    animation-delay: 38.74s;
+}
+
+.gu30{
+
+    animation: slide 5s linear;
+    animation-delay: 39.43s;
+}
+
+.gu31{
+    animation: slide 5s linear;
+    animation-delay: 39.86s;
+}
+
+.gu32{
+
+    animation: slide 5s linear;
+    animation-delay: 40.26s;
+}
+
+.gu33a
+
+    animation: slide 5s linear;
+    animation-delay: 40.67s;
+}
+
+.gu34{
+
+    animation: slide 5s linear;
+    animation-delay: 41.08s;
+}
+
+.gu35{
+
+    animation: slide 5s linear;
+    animation-delay: 41.53s;
+}
+
+.gu36{
+
+    animation: slide 5s linear;
+    animation-delay: 41.95s;
+}
+
+.gu37{
+
+    animation: slide 5s linear;
+    animation-delay: 42.36s;
+}
+
+.gu38{
+
+    animation: slide 5s linear;
+    animation-delay: 42.75s;
+}
+
+.gu39{
+
+    animation: slide 5s linear;
+    animation-delay: 43.19s;
+}
+
+.gu40{
+
+    animation: slide 5s linear;
+    animation-delay: 43.77s;
+}
+
+.gu41{
+    animation: slide 5s linear;
+    animation-delay: 43.97s;
+}
+
+.gu42{
+
+    animation: slide 5s linear;
+    animation-delay: 44.63s;
+}
+
+.gu43{
+
+    animation: slide 5s linear;
+    animation-delay: 44.8s;
+}
+
+.gu44a{
+
+    animation: slide 5s linear;
+    animation-delay: 45.68s;
+}
+
+.gu45{
+
+    animation: slide 5s linear;
+    animation-delay: 46.37s;
+}
+
+.gu46{
+
+    animation: slide 5s linear;
+    animation-delay: 47.25s;
+}
+
+.gu47{
+
+    animation: slide 5s linear;
+    animation-delay: 47.98s;
+}
+
+.gu48{
+
+    animation: slide 5s linear;
+    animation-delay: 48.74s;
+}
+
+.gu49{
+
+    animation: slide 5s linear;
+    animation-delay: 49.58s;
+}
+
+.gu50{
+
+    animation: slide 5s linear;
+    animation-delay: 50.35s;
+}
+
+.gu51{
+    animation: slide 5s linear;
+    animation-delay: 51.2s;
+}
+
+.gu52{
+
+    animation: slide 5s linear;
+    animation-delay: 52.05s;
+}
+
+.gu53{
+
+    animation: slide 5s linear;
+    animation-delay: 52.82s;
+}
+
+.gu54{
+
+    animation: slide 5s linear;
+    animation-delay: 53.57s;
+}
+
+.gu55a{
+
+    animation: slide 5s linear;
+    animation-delay: 54.41s;
+}
+
+.gu56{
+
+    animation: slide 5s linear;
+    animation-delay: 54.8s;
+}
+
+.gu57{
+
+    animation: slide 5s linear;
+    animation-delay: 55.21s;
+}
+
+.gu58{
+
+    animation: slide 5s linear;
+    animation-delay: 55.66s;
+}
+
+.gu59{
+
+    animation: slide 5s linear;
+    animation-delay: 56.37s;
+}
+
+.gu60{
+
+    animation: slide 5s linear;
+    animation-delay: 56.72s;
+}
+
+.gu61{
+    animation: slide 5s linear;
+    animation-delay: 56.93s;
+}
+
+.gu62{
+
+    animation: slide 5s linear;
+    animation-delay: 57.64s;
+}
+
+.gu63{
+
+    animation: slide 5s linear;
+    animation-delay: 58.44s;
+}
+
+.gu64{
+
+    animation: slide 5s linear;
+    animation-delay: 59.33s;
+}
+
+.gu65{
+
+    animation: slide 5s linear;
+    animation-delay: 60.09s;
+}
+
+.gu66a{
+
+    animation: slide 5s linear;
+    animation-delay: 60.87s;
+}
+
+.gu67{
+
+    animation: slide 5s linear;
+    animation-delay: 61.76s;
+}
+
+.gu68{
+
+    animation: slide 5s linear;
+    animation-delay: 62.49s;
+}
+
+.gu69{
+
+    animation: slide 5s linear;
+    animation-delay: 63.25s;
+}
+
+.gu70{
+
+    animation: slide 5s linear;
+    animation-delay: 64.45s;
+}
+
+.gu71{
+    animation: slide 5s linear;
+    animation-delay: 65.21s;
+}
+
+.gu72{
+
+    animation: slide 5s linear;
+    animation-delay: 65.67s;
+}
+
+.gu73{
+
+    animation: slide 5s linear;
+    animation-delay: 66.09s;
+}
+
+.gu74{
+
+    animation: slide 5s linear;
+    animation-delay: 66.54s;
+}
+
+.gu75{
+
+    animation: slide 5s linear;
+    animation-delay: 66.96s;
+}
+
+.gu76{
+
+    animation: slide 5s linear;
+    animation-delay: 67.36s;
+}
+
+.gu77a{
+
+    animation: slide 5s linear;
+    animation-delay: 67.79s;
+}
+
+.gu78{
+
+    animation: slide 5s linear;
+    animation-delay: 68.17s;
+}
+
+.gu79{
+
+    animation: slide 5s linear;
+    animation-delay: 68.56s;
+}
+
+.gu80{
+
+    animation: slide 5s linear;
+    animation-delay: 68.96s;
+}
+
+.gu81{
+    animation: slide 5s linear;
+    animation-delay: 69.58s;
+}
+
+.gu82{
+
+    animation: slide 5s linear;
+    animation-delay: 69.83s;
+}
+
+.gu83{
+
+    animation: slide 5s linear;
+    animation-delay: 70.5s;
+}
+
+.gu84{
+
+    animation: slide 5s linear;
+    animation-delay: 71.35s;
+}
+
+.gu85{
+
+    animation: slide 5s linear;
+    animation-delay: 72.18s;
+}
+
+.gu86{
+
+    animation: slide 5s linear;
+    animation-delay: 72.97s;
+}
+
+.gu87{
+
+    animation: slide 5s linear;
+    animation-delay: 73.83s;
+}
+
+.gu88a{
+
+    animation: slide 5s linear;
+    animation-delay: 74.61s;
+}
+
+.gu89{
+
+    animation: slide 5s linear;
+    animation-delay: 75.45s;
+}
+
+.gu90{
+
+    animation: slide 5s linear;
+    animation-delay: 76.17s;
+}
+
+.gu91{
+    animation: slide 5s linear;
+    animation-delay: 76.94s;
+}
+
+.gu92{
+
+    animation: slide 5s linear;
+    animation-delay: 77.68s;
+}
+
+.gu93{
+
+    animation: slide 5s linear;
+    animation-delay: 78.23s;
+}
+
+.gu94{
+
+    animation: slide 5s linear;
+    animation-delay: 78.68s;
+}
+
+.gu95{
+
+    animation: slide 5s linear;
+    animation-delay: 79.06s;
+}
+
+.gu96{
+
+    animation: slide 5s linear;
+    animation-delay: 79.45s;
+}
+
+.gu97{
+
+    animation: slide 5s linear;
+    animation-delay: 79.84s;
+}
+
+.gu98{
+
+    animation: slide 5s linear;
+    animation-delay: 80.29s;
+}
+
+.gu99a{
+
+    animation: slide 5s linear;
+    animation-delay: 80.66s;
+}
+
+.gu100{
+
+    animation: slide 5s linear;
+    animation-delay: 81.07s;
+}
+
+.gu101{
+    animation: slide 5s linear;
+    animation-delay: 81.43s;
+}
+
+.gu102{
+
+    animation: slide 5s linear;
+    animation-delay: 81.87s;
+}
+
+.gu103{
+
+    animation: slide 5s linear;
+    animation-delay: 82.4s;
+}
+
+.gu104{
+
+    animation: slide 5s linear;
+    animation-delay: 83.41s;
+}
+
+.gu105{
+
+    animation: slide 5s linear;
+    animation-delay: 84.23s;
+}
+
+.gu106{
+
+    animation: slide 5s linear;
+    animation-delay: 85.06s;
+}
+
+.gu107{
+
+    animation: slide 5s linear;
+    animation-delay: 86.69s;
+}
+
+.gu108{
+
+    animation: slide 5s linear;
+    animation-delay: 88.27s;
+}
+
+.gu109{
+
+    animation: slide 5s linear;
+    animation-delay: 89.92s;
+}
+
+.gu110{
+
+    animation: slide 5s linear;
+    animation-delay: 90.65s;
+}
+
+.gu111{
+    animation: slide 5s linear;
+    animation-delay: 91.46s;
+}
+
+.gu112{
+
+    animation: slide 5s linear;
+    animation-delay: 92.29s;
+}
+
+.gu113{
+
+    animation: slide 5s linear;
+    animation-delay: 93.16s;
+}
+
+.gu114{
+
+    animation: slide 5s linear;
+    animation-delay: 93.93s;
+}
+
+.gu115{
+
+    animation: slide 5s linear;
+    animation-delay: 94.77s;
+}
+
+.gu116{
+
+    animation: slide 5s linear;
+    animation-delay: 95.57s;
+}
+
+.gu117{
+
+    animation: slide 5s linear;
+    animation-delay: 96.38s;
+}
+
+.gu118{
+
+    animation: slide 5s linear;
+    animation-delay: 97.14s;
+}
+
+.gu119{
+
+    animation: slide 5s linear;
+    animation-delay: 97.52s;
+}
+
+.gu120{
+
+    animation: slide 5s linear;
+    animation-delay: 97.93s;
+}
+
+.gu121{
+    animation: slide 5s linear;
+    animation-delay: 98.35s;
+}
+
+.gu122{
+
+    animation: slide 5s linear;
+    animation-delay: 98.74s;
+}
+
+.gu123{
+
+    animation: slide 5s linear;
+    animation-delay: 99.55s;
+}
+
+.gu124{
+
+    animation: slide 5s linear;
+    animation-delay: 100.37s;
+}
+
+.gu125{
+
+    animation: slide 5s linear;
+    animation-delay: 101.01s;
+}
+
+.gu126{
+
+    animation: slide 5s linear;
+    animation-delay: 101.45s;
+}
+
+.gu127{
+
+    animation: slide 5s linear;
+    animation-delay: 102.02s;
+}
+
+.gu128{
+
+    animation: slide 5s linear;
+    animation-delay: 102.81s;
+}
+
+.gu129{
+
+    animation: slide 5s linear;
+    animation-delay: 103.61s;
+}
+
+.gu130{
+
+    animation: slide 5s linear;
+    animation-delay: 104.44s;
+}
+
+.gu131{
+    animation: slide 5s linear;
+    animation-delay: 104.82s;
+}
+
+.gu132{
+
+    animation: slide 5s linear;
+    animation-delay: 105.2s;
+}
+
+.gu133{
+
+    animation: slide 5s linear;
+    animation-delay: 106.04s;
+}
+
+.gu134{
+
+    animation: slide 5s linear;
+    animation-delay: 106.87s;
+}
+
+.gu135{
+
+    animation: slide 5s linear;
+    animation-delay: 107.63s;
+}
+
+.gu136{
+
+    animation: slide 5s linear;
+    animation-delay: 108.41s;
+}
+
+.gu137{
+
+    animation: slide 5s linear;
+    animation-delay: 109.22s;
+}
+
+.gu138{
+
+    animation: slide 5s linear;
+    animation-delay: 109.86s;
+}
+
+.gu139{
+
+    animation: slide 5s linear;
+    animation-delay: 110.04s;
+}
+
+.gu140{
+
+    animation: slide 5s linear;
+    animation-delay: 110.47s;
+}
+
+.gu141{
+    animation: slide 5s linear;
+    animation-delay: 110.87s;
+}
+
+.gu142{
+
+    animation: slide 5s linear;
+    animation-delay: 111.63s;
+}
+
+.gu143{
+
+    animation: slide 5s linear;
+    animation-delay: 112.45s;
+}
+
+.gu144{
+
+    animation: slide 5s linear;
+    animation-delay: 113.22s;
+}
+
+.gu145{
+
+    animation: slide 5s linear;
+    animation-delay: 114.03s;
+}
+
+.gu146{
+
+    animation: slide 5s linear;
+    animation-delay: 114.88s;
+}
+
+.gu147{
+
+    animation: slide 5s linear;
+    animation-delay: 115.66s;
+}
+
+.gu148{
+
+    animation: slide 5s linear;
+    animation-delay: 116.53s;
+}
+
+.gu149{
+
+    animation: slide 5s linear;
+    animation-delay: 117.31s;
+}
+
+.gu150{
+
+    animation: slide 5s linear;
+    animation-delay: 117.7s;
+}
+
+.gu151{
+    animation: slide 5s linear;
+    animation-delay: 118.08s;
+}
+
+.gu152{
+
+    animation: slide 5s linear;
+    animation-delay: 118.89s;
+}
+
+.gu153{
+
+    animation: slide 5s linear;
+    animation-delay: 119.73s;
+}
+
+.gu154{
+
+    animation: slide 5s linear;
+    animation-delay: 120.5s;
+}
+
+.gu155{
+
+    animation: slide 5s linear;
+    animation-delay: 121.34s;
+}
+
+.gu156{
+
+    animation: slide 5s linear;
+    animation-delay: 122.13s;
+}
+
+.gu157{
+
+    animation: slide 5s linear;
+    animation-delay: 122.87s;
+}
+
+.gu158{
+
+    animation: slide 5s linear;
+    animation-delay: 123.29s;
+}
+
+.gu159{
+
+    animation: slide 5s linear;
+    animation-delay: 123.71s;
+}
+
+.gu160{
+
+    animation: slide 5s linear;
+    animation-delay: 124.53s;
+}
+
+.gu161{
+    animation: slide 5s linear;
+    animation-delay: 125.32s;
+}
+
+.gu162{
+
+    animation: slide 5s linear;
+    animation-delay: 126.12s;
+}
+
+.gu163{
+
+    animation: slide 5s linear;
+    animation-delay: 126.56s;
+}
+
+.gu164{
+
+    animation: slide 5s linear;
+    animation-delay: 127.01s;
+}
+
+.gu165{
+
+    animation: slide 5s linear;
+    animation-delay: 127.39s;
+}
+
+.gu166{
+
+    animation: slide 5s linear;
+    animation-delay: 127.77s;
+}
+
+.gu167{
+
+    animation: slide 5s linear;
+    animation-delay: 128.57s;
+}
+
+.gu168{
+
+    animation: slide 5s linear;
+    animation-delay: 129.34s;
+}
+
+.gu169{
+
+    animation: slide 5s linear;
+    animation-delay: 129.8s;
+}
+
+.gu170{
+
+    animation: slide 5s linear;
+    animation-delay: 130.21s;
+}
+
+.gu171{
+    animation: slide 5s linear;
+    animation-delay: 130.61s;
+}
+
+.gu172{
+
+    animation: slide 5s linear;
+    animation-delay: 130.99s;
+}
+
+.gu173{
+
+    animation: slide 5s linear;
+    animation-delay: 131.8s;
+}
+
+.gu174{
+
+    animation: slide 5s linear;
+    animation-delay: 132.59s;
+}
+
+.gu175{
+
+    animation: slide 5s linear;
+    animation-delay: 133.36s;
+}
+
+.gu176{
+
+    animation: slide 5s linear;
+    animation-delay: 134.11s;
+}
+
+.gu177{
+
+    animation: slide 5s linear;
+    animation-delay: 135.02s;
+}
+
+.gu178{
+
+    animation: slide 5s linear;
+    animation-delay: 135.8s;
+}
+
+.gu179{
+
+    animation: slide 5s linear;
+    animation-delay: 136.17s;
+}
+
+.gu180{
+
+    animation: slide 5s linear;
+    animation-delay: 136.57s;
+}
+
+.gu181{
+    animation: slide 5s linear;
+    animation-delay: 137.36s;
+}
+
+.gu182{
+
+    animation: slide 5s linear;
+    animation-delay: 138.16s;
+}
+
+.gu183{
+
+    animation: slide 5s linear;
+    animation-delay: 139.82s;
+}
+
+.gu184{
+
+    animation: slide 5s linear;
+    animation-delay: 141.42s;
+}
+
+.gu185{
+
+    animation: slide 5s linear;
+    animation-delay: 143.07s;
+}
+
+.gu186{
+
+    animation: slide 5s linear;
+    animation-delay: 144.72s;
+}
+
+.gu187{
+
+    animation: slide 5s linear;
+    animation-delay: 145.44s;
+}
+
+.gu188{
+
+    animation: slide 5s linear;
+    animation-delay: 146.25s;
+}
+
+.gu189{
+
+    animation: slide 5s linear;
+    animation-delay: 147.07s;
+}
+
+.gu190{
+
+    animation: slide 5s linear;
+    animation-delay: 147.98s;
+}
+
+.gu191{
+    animation: slide 5s linear;
+    animation-delay: 148.33s;
+}
+
+.gu192{
+
+    animation: slide 5s linear;
+    animation-delay: 148.75s;
+}
+
+.gu193{
+
+    animation: slide 5s linear;
+    animation-delay: 149.11s;
+}
+
+.gu194{
+
+    animation: slide 5s linear;
+    animation-delay: 3149.5s;
+}
+
+
+
+@keyframes slide{
+    0%{
+      transform: translate3d(0, 0, 0);
+    }
+    100%{
+      transform: translate3d(-2000px, 0, 0);
+    }
+  }
+
+.gu11, .ch11, .pa11, .gu22, .ch22, .pa22, .gu33, .ch33, .pa33, .gu44, .ch44, .pa44,
+.gu55, .ch55, .pa55, .gu66, .ch66, .pa66, .gu77, .ch77, .pa77, .gu88, .ch88, .pa88,
+.gu99, .ch99, .pa99, .gu100, .ch100, .pa100, .gu110, .ch110, .pa110, 
+.gu120, .ch120, .pa120, .gu130, .ch130, .pa130, .gu140, .ch140, .pa140, 
+.gu150, .ch150, .pa150, .gu160, .ch160, .pa160, .gu170, .ch170, .pa170,
+.gu180, .ch180, .pa180, .gu190, .ch190, .pa190, .gu200, .ch200, .pa200,
+.gu210, .ch210, .pa210, .gu220, .ch220, .pa220, .gu230, .ch230, .pa230, 
+.gu240, .ch240, .pa240, .gu250, .ch250, .pa250, .gu260, .ch260, .pa260,
+.gu270, .ch270, .pa270, .gu280, .ch280, .pa280, .gu290, .ch290, .pa290, 
+.gu300, .ch300, .pa300, .gu310, .ch310, .pa310, .gu320, .ch320, .pa320,
+.gu330, .ch330, .pa330, .gu340, .ch340, .pa340, .gu350, .ch350, .pa350, 
+.gu360, .ch360, .pa360, .gu370, .ch370, .pa370, .gu380, .ch380, .pa380, 
+.gu390, .ch390, .pa390, .gu400, .ch400, .pa400, .gu410, .ch410, .pa410, 
+.gu420, .ch420, .pa420, .gu430, .ch430, .pa430, .gu440, .ch440, .pa440,
+.gu450, .ch450, .pa450, .gu460, .ch460, .pa460, .gu470, .ch470, .pa470, 
+.gu480, .ch480, .pa480, .gu490, .ch490, .pa490, .gu500, .ch500, .pa500, 
+.gu510, .ch510, .pa510, .gu520, .ch520, .pa520, .gu530, .ch530, .pa530, 
+.gu540, .ch540, .pa540, .gu550, .ch550, .pa550, .gu560, .ch560, .pa560,
+.gu570, .ch570, .pa570, .gu580, .ch580, .pa580, .gu590, .ch590, .pa590, 
+.gu600, .ch600, .pa600, .gu610, .ch610, .pa610, .gu620, .ch620, .pa620, 
+.gu630, .ch630, .pa630, .gu640, .ch640, .pa640, .gu650, .ch650, .pa650, 
+.gu660, .ch660, .pa660, .gu670, .ch670, .pa670, .gu680, .ch680, .pa680,
+.gu690, .ch690, .pa690, .gu700, .ch700, .pa700, .gu710, .ch710, .pa710, 
+.gu720, .ch720, .pa720, .gu730, .ch730, .pa730, .gu740, .ch740, .pa740, 
+.gu750, .ch750, .pa750, .gu760, .ch760, .pa760, .gu770, .ch770, .pa770, 
+.gu780, .ch780, .pa780, .gu790, .ch790, .pa790, .gu800, .ch800, .pa800,
+.gu810, .ch810, .pa810, .gu820, .ch820, .pa820, .gu830, .ch830, .pa830, 
+.gu840, .ch840, .pa840, .gu850, .ch850, .pa850, .gu860, .ch860, .pa860, 
+.gu870, .ch870, .pa870, .gu880, .ch880, .pa880, .gu890, .ch890, .pa890, 
+.gu900, .ch900, .pa900, .gu910, .ch910, .pa910, .gu920, .ch920, .pa920,
+.gu930, .ch930, .pa930, .gu940, .ch940, .pa940, .gu950, .ch950, .pa950, 
+.gu960, .ch960, .pa960, .gu970, .ch970, .pa970, .gu980, .ch980, .pa980, .gu990, .ch990, .pa990, 
+.gu1000, .ch1000, .pa1000, .gu1010, .ch1010, .pa1010, .gu1020, .ch1020, .pa1020, 
+.gu1030, .ch1030, .pa1030, .gu1040, .ch1040, .pa1040, .gu1050, .ch1050, .pa1050,
+.gu1060, .ch1060, .pa1060, .gu1070, .ch1070, .pa1070, .gu1080, .ch1080, .pa1080, 
+.gu1090, .ch1090, .pa1090, .gu1100, .ch1100, .pa1100, .gu1110, .ch1110, .pa1110, 
+.gu1120, .ch1120, .pa1120, .gu1130, .ch1130, .pa1130, .gu1140, .ch1140, .pa1140, 
+.gu1150, .ch1150, .pa1150, .gu1160, .ch1160, .pa1160, .gu1170, .ch1170, .pa1170,
+.gu1180, .ch1180, .pa1180, .gu1190, .ch1190, .pa1190, .gu1200, .ch1200, .pa1200, 
+.gu1210, .ch1210, .pa1210, .gu1220, .ch1220, .pa1220, .gu1230, .ch1230, .pa1230,
+.gu1240, .ch1240, .pa1240, .gu1250, .ch1250, .pa1250, .gu1260, .ch1260, .pa1260, 
+.gu1270, .ch1270, .pa1270, .gu1280, .ch1280, .pa1280, .gu1290, .ch1290, .pa1290, 
+.gu1300, .ch1300, .pa1300, .gu1310, .ch1310, .pa1310, .gu1320, .ch1320, .pa1320, 
+.gu1330, .ch1330, .pa1330, .gu1340, .ch1340, .pa1340, .gu1350, .ch1350, .pa1350,
+.gu1360, .ch1360, .pa1360, .gu1370, .ch1370, .pa1370, .gu1380, .ch1380, .pa1380, 
+.gu1390, .ch1390, .pa1390, .gu1400, .ch1400, .pa1400, .gu1410, .ch1410, .pa1410,
+.gu1420, .ch1420, .pa1420, .gu1430, .ch1430, .pa1430, .gu1440, .ch1440, .pa1440, 
+.gu1450, .ch1450, .pa1450, .gu1460, .ch1460, .pa1460, .gu1470, .ch1470, .pa1470, 
+.gu1480, .ch1480, .pa1480, .gu1490, .ch1490, .pa1490, .gu1500, .ch1500, .pa1500, 
+.gu1510, .ch1510, .pa1510, .gu1520, .ch1520, .pa1520, .gu1530, .ch1530, .pa1530,
+.gu1540, .ch1540, .pa1540, .gu1550, .ch1550, .pa1550, .gu1560, .ch1560, .pa1560, 
+.gu1570, .ch1570, .pa1570, .gu1580, .ch1580, .pa1580, .gu1590, .ch1590, .pa1590,
+.gu1600, .ch1600, .pa1600, .gu1610, .ch1610, .pa1610, .gu1620, .ch1620, .pa1620, 
+.gu1630, .ch1630, .pa1630, .gu1640, .ch1640, .pa1640, .gu1650, .ch1650, .pa1650, 
+.gu1660, .ch1660, .pa1660, .gu1670, .ch1670, .pa1670, .gu1680, .ch1680, .pa1680, 
+.gu1690, .ch1690, .pa1690, .gu1700, .ch1700, .pa1700, .gu1710, .ch1710, .pa1710,
+.gu1720, .ch1720, .pa1720, .gu1730, .ch1730, .pa1730, .gu1740, .ch1740, .pa1740, 
+.gu1750, .ch1750, .pa1750, .gu1760, .ch1760, .pa1760, .gu1770, .ch1770, .pa1770,
+.gu1780, .ch1780, .pa1780, .gu1790, .ch1790, .pa1790, .gu1800, .ch1800, .pa1800, 
+.gu1810, .ch1810, .pa1810, .gu1820, .ch1820, .pa1820, .gu1830, .ch1830, .pa1830, 
+.gu1840, .ch1840, .pa1840, .gu1850, .ch1850, .pa1850, .gu1860, .ch1860, .pa1860, 
+.gu1870, .ch1870, .pa1870, .gu1880, .ch1880, .pa1880, .gu1890, .ch1890, .pa1890,
+.gu1900, .ch1900, .pa1900, .gu1910, .ch1910, .pa1910, .gu1920, .ch1920, .pa1920,
+.gu1930, .ch1930, .pa1930, .gu1940, .ch1940, .pa1940{
+    width: 80px; 
+    position:absolute;
+    top: 20%;
+    left: 100%;
+}

@@ -1,0 +1,1260 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>あいこの達人</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+
+</head>
+<body>
+    <div style="text-align: center;">
+        <img src="img/kuro.png" alt="" class="haikei" style="width: 1200px;height: 500px;">
+    </div>
+            <div class="taitoru">じゃんけんゲーム</div>
+    
+            
+    
+        <div class="hajimeru"><a onClick="sound()">＞はじめる</a></div>
+
+    
+    <audio id="sound" preload="auto">
+        <source src="audio/kabutomushi.mp3" type="audio/mp3">
+    </audio>
+
+<div class="kakusu">
+
+
+<div id="score">0</div>
+    <div class="haikei1"></div>
+    <div class="haikei2">
+
+        <div class="nagareru_te">
+
+            <div class="hatena"><img src="img/nanigaderu.png" alt="" class="hatena_box"></div>
+            <div class="gu1">
+                <img src="img/M-j_gu02.png" alt="" class="gu11">
+                <img src="img/M-j_ch02.png" alt="" class="ch11">
+                <img src="img/M-j_pa02.png" alt="" class="pa11">
+            </div>
+
+            <div class="gu2">
+                <img src="img/M-j_gu02.png" alt="" class="gu22">
+                <img src="img/M-j_ch02.png" alt="" class="ch22">
+                <img src="img/M-j_pa02.png" alt="" class="pa22">
+            </div>
+
+            <div class="gu3">
+                <img src="img/M-j_gu02.png" alt="" class="gu33">
+                <img src="img/M-j_ch02.png" alt="" class="ch33">
+                <img src="img/M-j_pa02.png" alt="" class="pa33">
+            </div>
+
+            <div class="gu4">
+                <img src="img/M-j_gu02.png" alt="" class="gu44">
+                <img src="img/M-j_ch02.png" alt="" class="ch44">
+                <img src="img/M-j_pa02.png" alt="" class="pa44">
+            </div>
+
+            <div class="gu5">
+                <img src="img/M-j_gu02.png" alt="" class="gu55">
+                <img src="img/M-j_ch02.png" alt="" class="ch55">
+                <img src="img/M-j_pa02.png" alt="" class="pa55">
+            </div>
+
+            <div class="gu6">
+                <img src="img/M-j_gu02.png" alt="" class="gu66">
+                <img src="img/M-j_ch02.png" alt="" class="ch66">
+                <img src="img/M-j_pa02.png" alt="" class="pa66">
+            </div>
+
+            <div class="gu7">
+                <img src="img/M-j_gu02.png" alt="" class="gu77">
+                <img src="img/M-j_ch02.png" alt="" class="ch77">
+                <img src="img/M-j_pa02.png" alt="" class="pa77">
+            </div>
+
+            <div class="gu8">
+                <img src="img/M-j_gu02.png" alt="" class="gu88">
+                <img src="img/M-j_ch02.png" alt="" class="ch88">
+                <img src="img/M-j_pa02.png" alt="" class="pa88">
+            </div>
+
+            <div class="gu9">
+                <img src="img/M-j_gu02.png" alt="" class="gu99">
+                <img src="img/M-j_ch02.png" alt="" class="ch99">
+                <img src="img/M-j_pa02.png" alt="" class="pa99">
+            </div>
+
+            <div class="gu10">
+                <img src="img/M-j_gu02.png" alt="" class="gu100">
+                <img src="img/M-j_ch02.png" alt="" class="ch100">
+                <img src="img/M-j_pa02.png" alt="" class="pa100">
+            </div>
+
+            <div class="gu11a">
+                <img src="img/M-j_gu02.png" alt="" class="gu110">
+                <img src="img/M-j_ch02.png" alt="" class="ch110">
+                <img src="img/M-j_pa02.png" alt="" class="pa110">
+            </div>
+
+            <div class="gu12">
+                <img src="img/M-j_gu02.png" alt="" class="gu120">
+                <img src="img/M-j_ch02.png" alt="" class="ch120">
+                <img src="img/M-j_pa02.png" alt="" class="pa120">
+            </div>
+
+            <div class="gu13">
+                <img src="img/M-j_gu02.png" alt="" class="gu130">
+                <img src="img/M-j_ch02.png" alt="" class="ch130">
+                <img src="img/M-j_pa02.png" alt="" class="pa130">
+            </div>
+
+            <div class="gu14">
+                <img src="img/M-j_gu02.png" alt="" class="gu140">
+                <img src="img/M-j_ch02.png" alt="" class="ch140">
+                <img src="img/M-j_pa02.png" alt="" class="pa140">
+            </div>
+
+            <div class="gu15">
+                <img src="img/M-j_gu02.png" alt="" class="gu150">
+                <img src="img/M-j_ch02.png" alt="" class="ch150">
+                <img src="img/M-j_pa02.png" alt="" class="pa150">
+            </div>
+
+            <div class="gu16">
+                <img src="img/M-j_gu02.png" alt="" class="gu160">
+                <img src="img/M-j_ch02.png" alt="" class="ch160">
+                <img src="img/M-j_pa02.png" alt="" class="pa160">
+            </div>
+
+            <div class="gu17">
+                <img src="img/M-j_gu02.png" alt="" class="gu170">
+                <img src="img/M-j_ch02.png" alt="" class="ch170">
+                <img src="img/M-j_pa02.png" alt="" class="pa170">
+            </div>
+
+            <div class="gu18">
+                <img src="img/M-j_gu02.png" alt="" class="gu180">
+                <img src="img/M-j_ch02.png" alt="" class="ch180">
+                <img src="img/M-j_pa02.png" alt="" class="pa180">
+            </div>
+
+            <div class="gu19">
+                <img src="img/M-j_gu02.png" alt="" class="gu190">
+                <img src="img/M-j_ch02.png" alt="" class="ch190">
+                <img src="img/M-j_pa02.png" alt="" class="pa190">
+            </div>
+
+            <div class="gu20">
+                <img src="img/M-j_gu02.png" alt="" class="gu200">
+                <img src="img/M-j_ch02.png" alt="" class="ch200">
+                <img src="img/M-j_pa02.png" alt="" class="pa200">
+            </div>
+
+            <div class="gu21">
+                <img src="img/M-j_gu02.png" alt="" class="gu210">
+                <img src="img/M-j_ch02.png" alt="" class="ch210">
+                <img src="img/M-j_pa02.png" alt="" class="pa210">
+            </div>
+
+            <div class="gu22">
+                <img src="img/M-j_gu02.png" alt="" class="gu220">
+                <img src="img/M-j_ch02.png" alt="" class="ch220">
+                <img src="img/M-j_pa02.png" alt="" class="pa220">
+            </div>
+
+
+
+            <div class="gu23">
+                <img src="img/M-j_gu02.png" alt="" class="gu230">
+                <img src="img/M-j_ch02.png" alt="" class="ch230">
+                <img src="img/M-j_pa02.png" alt="" class="pa230">
+            </div>
+
+            <div class="gu24">
+                <img src="img/M-j_gu02.png" alt="" class="gu240">
+                <img src="img/M-j_ch02.png" alt="" class="ch240">
+                <img src="img/M-j_pa02.png" alt="" class="pa240">
+            </div>
+
+            <div class="gu25">
+                <img src="img/M-j_gu02.png" alt="" class="gu250">
+                <img src="img/M-j_ch02.png" alt="" class="ch250">
+                <img src="img/M-j_pa02.png" alt="" class="pa250">
+            </div>
+
+            <div class="gu26">
+                <img src="img/M-j_gu02.png" alt="" class="gu260">
+                <img src="img/M-j_ch02.png" alt="" class="ch260">
+                <img src="img/M-j_pa02.png" alt="" class="pa260">
+            </div>
+
+            <div class="gu27">
+                <img src="img/M-j_gu02.png" alt="" class="gu270">
+                <img src="img/M-j_ch02.png" alt="" class="ch270">
+                <img src="img/M-j_pa02.png" alt="" class="pa270">
+            </div>
+
+            <div class="gu28">
+                <img src="img/M-j_gu02.png" alt="" class="gu280">
+                <img src="img/M-j_ch02.png" alt="" class="ch280">
+                <img src="img/M-j_pa02.png" alt="" class="pa280">
+            </div>
+
+            <div class="gu29">
+                <img src="img/M-j_gu02.png" alt="" class="gu290">
+                <img src="img/M-j_ch02.png" alt="" class="ch290">
+                <img src="img/M-j_pa02.png" alt="" class="pa290">
+            </div>
+
+            <div class="gu30">
+                <img src="img/M-j_gu02.png" alt="" class="gu300">
+                <img src="img/M-j_ch02.png" alt="" class="ch300">
+                <img src="img/M-j_pa02.png" alt="" class="pa300">
+            </div>
+
+            <div class="gu31">
+                <img src="img/M-j_gu02.png" alt="" class="gu310">
+                <img src="img/M-j_ch02.png" alt="" class="ch310">
+                <img src="img/M-j_pa02.png" alt="" class="pa310">
+            </div>
+
+            <div class="gu32">
+                <img src="img/M-j_gu02.png" alt="" class="gu320">
+                <img src="img/M-j_ch02.png" alt="" class="ch320">
+                <img src="img/M-j_pa02.png" alt="" class="pa320">
+            </div>
+
+            <div class="gu33a">
+                <img src="img/M-j_gu02.png" alt="" class="gu330">
+                <img src="img/M-j_ch02.png" alt="" class="ch330">
+                <img src="img/M-j_pa02.png" alt="" class="pa330">
+            </div>
+
+            <div class="gu34">
+                <img src="img/M-j_gu02.png" alt="" class="gu340">
+                <img src="img/M-j_ch02.png" alt="" class="ch340">
+                <img src="img/M-j_pa02.png" alt="" class="pa340">
+            </div>
+
+            <div class="gu35">
+                <img src="img/M-j_gu02.png" alt="" class="gu350">
+                <img src="img/M-j_ch02.png" alt="" class="ch350">
+                <img src="img/M-j_pa02.png" alt="" class="pa350">
+            </div>
+
+            <div class="gu36">
+                <img src="img/M-j_gu02.png" alt="" class="gu360">
+                <img src="img/M-j_ch02.png" alt="" class="ch360">
+                <img src="img/M-j_pa02.png" alt="" class="pa360">
+            </div>
+
+            <div class="gu37">
+                <img src="img/M-j_gu02.png" alt="" class="gu370">
+                <img src="img/M-j_ch02.png" alt="" class="ch370">
+                <img src="img/M-j_pa02.png" alt="" class="pa370">
+            </div>
+
+            <div class="gu38">
+                <img src="img/M-j_gu02.png" alt="" class="gu380">
+                <img src="img/M-j_ch02.png" alt="" class="ch380">
+                <img src="img/M-j_pa02.png" alt="" class="pa380">
+            </div>
+
+            <div class="gu39">
+                <img src="img/M-j_gu02.png" alt="" class="gu390">
+                <img src="img/M-j_ch02.png" alt="" class="ch390">
+                <img src="img/M-j_pa02.png" alt="" class="pa390">
+            </div>
+
+            <div class="gu40">
+                <img src="img/M-j_gu02.png" alt="" class="gu400">
+                <img src="img/M-j_ch02.png" alt="" class="ch400">
+                <img src="img/M-j_pa02.png" alt="" class="pa400">
+            </div>
+
+            <div class="gu41">
+                <img src="img/M-j_gu02.png" alt="" class="gu410">
+                <img src="img/M-j_ch02.png" alt="" class="ch410">
+                <img src="img/M-j_pa02.png" alt="" class="pa410">
+            </div>
+
+            <div class="gu42">
+                <img src="img/M-j_gu02.png" alt="" class="gu420">
+                <img src="img/M-j_ch02.png" alt="" class="ch420">
+                <img src="img/M-j_pa02.png" alt="" class="pa420">
+            </div>
+
+            <div class="gu43">
+                <img src="img/M-j_gu02.png" alt="" class="gu430">
+                <img src="img/M-j_ch02.png" alt="" class="ch430">
+                <img src="img/M-j_pa02.png" alt="" class="pa430">
+            </div>
+
+            <div class="gu44a">
+                <img src="img/M-j_gu02.png" alt="" class="gu440">
+                <img src="img/M-j_ch02.png" alt="" class="ch440">
+                <img src="img/M-j_pa02.png" alt="" class="pa440">
+            </div>
+
+            <div class="gu45">
+                <img src="img/M-j_gu02.png" alt="" class="gu450">
+                <img src="img/M-j_ch02.png" alt="" class="ch450">
+                <img src="img/M-j_pa02.png" alt="" class="pa450">
+            </div>
+
+            <div class="gu46">
+                <img src="img/M-j_gu02.png" alt="" class="gu460">
+                <img src="img/M-j_ch02.png" alt="" class="ch460">
+                <img src="img/M-j_pa02.png" alt="" class="pa460">
+            </div>
+
+            <div class="gu47">
+                <img src="img/M-j_gu02.png" alt="" class="gu470">
+                <img src="img/M-j_ch02.png" alt="" class="ch470">
+                <img src="img/M-j_pa02.png" alt="" class="pa470">
+            </div>
+
+            <div class="gu48">
+                <img src="img/M-j_gu02.png" alt="" class="gu480">
+                <img src="img/M-j_ch02.png" alt="" class="ch480">
+                <img src="img/M-j_pa02.png" alt="" class="pa480">
+            </div>
+
+            <div class="gu49">
+                <img src="img/M-j_gu02.png" alt="" class="gu490">
+                <img src="img/M-j_ch02.png" alt="" class="ch490">
+                <img src="img/M-j_pa02.png" alt="" class="pa490">
+            </div>
+
+
+            <div class="gu50">
+                <img src="img/M-j_gu02.png" alt="" class="gu500">
+                <img src="img/M-j_ch02.png" alt="" class="ch500">
+                <img src="img/M-j_pa02.png" alt="" class="pa500">
+            </div>
+
+            <div class="gu51">
+                <img src="img/M-j_gu02.png" alt="" class="gu510">
+                <img src="img/M-j_ch02.png" alt="" class="ch510">
+                <img src="img/M-j_pa02.png" alt="" class="pa510">
+            </div>
+
+            <div class="gu52">
+                <img src="img/M-j_gu02.png" alt="" class="gu520">
+                <img src="img/M-j_ch02.png" alt="" class="ch520">
+                <img src="img/M-j_pa02.png" alt="" class="pa520">
+            </div>
+
+            <div class="gu53">
+                <img src="img/M-j_gu02.png" alt="" class="gu530">
+                <img src="img/M-j_ch02.png" alt="" class="ch530">
+                <img src="img/M-j_pa02.png" alt="" class="pa530">
+            </div>
+
+            <div class="gu54">
+                <img src="img/M-j_gu02.png" alt="" class="gu540">
+                <img src="img/M-j_ch02.png" alt="" class="ch540">
+                <img src="img/M-j_pa02.png" alt="" class="pa540">
+            </div>
+
+            <div class="gu55a">
+                <img src="img/M-j_gu02.png" alt="" class="gu550">
+                <img src="img/M-j_ch02.png" alt="" class="ch550">
+                <img src="img/M-j_pa02.png" alt="" class="pa550">
+            </div>
+
+            <div class="gu56">
+                <img src="img/M-j_gu02.png" alt="" class="gu560">
+                <img src="img/M-j_ch02.png" alt="" class="ch560">
+                <img src="img/M-j_pa02.png" alt="" class="pa560">
+            </div>
+
+            <div class="gu57">
+                <img src="img/M-j_gu02.png" alt="" class="gu570">
+                <img src="img/M-j_ch02.png" alt="" class="ch570">
+                <img src="img/M-j_pa02.png" alt="" class="pa570">
+            </div>
+
+            <div class="gu58">
+                <img src="img/M-j_gu02.png" alt="" class="gu580">
+                <img src="img/M-j_ch02.png" alt="" class="ch580">
+                <img src="img/M-j_pa02.png" alt="" class="pa580">
+            </div>
+
+            <div class="gu59">
+                <img src="img/M-j_gu02.png" alt="" class="gu590">
+                <img src="img/M-j_ch02.png" alt="" class="ch590">
+                <img src="img/M-j_pa02.png" alt="" class="pa590">
+            </div>
+
+            <div class="gu60">
+                <img src="img/M-j_gu02.png" alt="" class="gu600">
+                <img src="img/M-j_ch02.png" alt="" class="ch600">
+                <img src="img/M-j_pa02.png" alt="" class="pa600">
+            </div>
+
+            <div class="gu61">
+                <img src="img/M-j_gu02.png" alt="" class="gu610">
+                <img src="img/M-j_ch02.png" alt="" class="ch610">
+                <img src="img/M-j_pa02.png" alt="" class="pa610">
+            </div>
+
+            <div class="gu62">
+                <img src="img/M-j_gu02.png" alt="" class="gu620">
+                <img src="img/M-j_ch02.png" alt="" class="ch620">
+                <img src="img/M-j_pa02.png" alt="" class="pa620">
+            </div>
+
+            <div class="gu63">
+                <img src="img/M-j_gu02.png" alt="" class="gu630">
+                <img src="img/M-j_ch02.png" alt="" class="ch630">
+                <img src="img/M-j_pa02.png" alt="" class="pa630">
+            </div>
+
+            <div class="gu64">
+                <img src="img/M-j_gu02.png" alt="" class="gu640">
+                <img src="img/M-j_ch02.png" alt="" class="ch640">
+                <img src="img/M-j_pa02.png" alt="" class="pa640">
+            </div>
+
+            <div class="gu65">
+                <img src="img/M-j_gu02.png" alt="" class="gu650">
+                <img src="img/M-j_ch02.png" alt="" class="ch650">
+                <img src="img/M-j_pa02.png" alt="" class="pa650">
+            </div>
+
+            <div class="gu66a">
+                <img src="img/M-j_gu02.png" alt="" class="gu660">
+                <img src="img/M-j_ch02.png" alt="" class="ch660">
+                <img src="img/M-j_pa02.png" alt="" class="pa660">
+            </div>
+
+            <div class="gu67">
+                <img src="img/M-j_gu02.png" alt="" class="gu670">
+                <img src="img/M-j_ch02.png" alt="" class="ch670">
+                <img src="img/M-j_pa02.png" alt="" class="pa670">
+            </div>
+
+            <div class="gu68">
+                <img src="img/M-j_gu02.png" alt="" class="gu680">
+                <img src="img/M-j_ch02.png" alt="" class="ch680">
+                <img src="img/M-j_pa02.png" alt="" class="pa680">
+            </div>
+
+            <div class="gu69">
+                <img src="img/M-j_gu02.png" alt="" class="gu690">
+                <img src="img/M-j_ch02.png" alt="" class="ch690">
+                <img src="img/M-j_pa02.png" alt="" class="pa690">
+            </div>
+
+            <div class="gu70">
+                <img src="img/M-j_gu02.png" alt="" class="gu700">
+                <img src="img/M-j_ch02.png" alt="" class="ch700">
+                <img src="img/M-j_pa02.png" alt="" class="pa700">
+            </div>
+
+            <div class="gu71">
+                <img src="img/M-j_gu02.png" alt="" class="gu710">
+                <img src="img/M-j_ch02.png" alt="" class="ch710">
+                <img src="img/M-j_pa02.png" alt="" class="pa710">
+            </div>
+
+            <div class="gu72">
+                <img src="img/M-j_gu02.png" alt="" class="gu720">
+                <img src="img/M-j_ch02.png" alt="" class="ch720">
+                <img src="img/M-j_pa02.png" alt="" class="pa720">
+            </div>
+
+            <div class="gu73">
+                <img src="img/M-j_gu02.png" alt="" class="gu730">
+                <img src="img/M-j_ch02.png" alt="" class="ch730">
+                <img src="img/M-j_pa02.png" alt="" class="pa730">
+            </div>
+
+            <div class="gu74">
+                <img src="img/M-j_gu02.png" alt="" class="gu740">
+                <img src="img/M-j_ch02.png" alt="" class="ch740">
+                <img src="img/M-j_pa02.png" alt="" class="pa740">
+            </div>
+
+            <div class="gu75">
+                <img src="img/M-j_gu02.png" alt="" class="gu750">
+                <img src="img/M-j_ch02.png" alt="" class="ch750">
+                <img src="img/M-j_pa02.png" alt="" class="pa750">
+            </div>
+
+            <div class="gu76">
+                <img src="img/M-j_gu02.png" alt="" class="gu760">
+                <img src="img/M-j_ch02.png" alt="" class="ch760">
+                <img src="img/M-j_pa02.png" alt="" class="pa760">
+            </div>
+
+            <div class="gu77a">
+                <img src="img/M-j_gu02.png" alt="" class="gu770">
+                <img src="img/M-j_ch02.png" alt="" class="ch770">
+                <img src="img/M-j_pa02.png" alt="" class="pa770">
+            </div>
+
+            <div class="gu78">
+                <img src="img/M-j_gu02.png" alt="" class="gu780">
+                <img src="img/M-j_ch02.png" alt="" class="ch780">
+                <img src="img/M-j_pa02.png" alt="" class="pa780">
+            </div>
+
+            <div class="gu79">
+                <img src="img/M-j_gu02.png" alt="" class="gu790">
+                <img src="img/M-j_ch02.png" alt="" class="ch790">
+                <img src="img/M-j_pa02.png" alt="" class="pa790">
+            </div>
+
+            <div class="gu80">
+                <img src="img/M-j_gu02.png" alt="" class="gu800">
+                <img src="img/M-j_ch02.png" alt="" class="ch800">
+                <img src="img/M-j_pa02.png" alt="" class="pa800">
+            </div>
+
+            <div class="gu81">
+                <img src="img/M-j_gu02.png" alt="" class="gu810">
+                <img src="img/M-j_ch02.png" alt="" class="ch810">
+                <img src="img/M-j_pa02.png" alt="" class="pa810">
+            </div>
+
+            <div class="gu82">
+                <img src="img/M-j_gu02.png" alt="" class="gu820">
+                <img src="img/M-j_ch02.png" alt="" class="ch820">
+                <img src="img/M-j_pa02.png" alt="" class="pa820">
+            </div>
+
+            <div class="gu83">
+                <img src="img/M-j_gu02.png" alt="" class="gu830">
+                <img src="img/M-j_ch02.png" alt="" class="ch830">
+                <img src="img/M-j_pa02.png" alt="" class="pa830">
+            </div>
+
+            <div class="gu84">
+                <img src="img/M-j_gu02.png" alt="" class="gu840">
+                <img src="img/M-j_ch02.png" alt="" class="ch840">
+                <img src="img/M-j_pa02.png" alt="" class="pa840">
+            </div>
+
+            <div class="gu85">
+                <img src="img/M-j_gu02.png" alt="" class="gu850">
+                <img src="img/M-j_ch02.png" alt="" class="ch850">
+                <img src="img/M-j_pa02.png" alt="" class="pa850">
+            </div>
+
+            <div class="gu86">
+                <img src="img/M-j_gu02.png" alt="" class="gu860">
+                <img src="img/M-j_ch02.png" alt="" class="ch860">
+                <img src="img/M-j_pa02.png" alt="" class="pa860">
+            </div>
+
+            <div class="gu87">
+                <img src="img/M-j_gu02.png" alt="" class="gu870">
+                <img src="img/M-j_ch02.png" alt="" class="ch870">
+                <img src="img/M-j_pa02.png" alt="" class="pa870">
+            </div>
+
+            <div class="gu88a">
+                <img src="img/M-j_gu02.png" alt="" class="gu880">
+                <img src="img/M-j_ch02.png" alt="" class="ch880">
+                <img src="img/M-j_pa02.png" alt="" class="pa880">
+            </div>
+
+            <div class="gu89">
+                <img src="img/M-j_gu02.png" alt="" class="gu890">
+                <img src="img/M-j_ch02.png" alt="" class="ch890">
+                <img src="img/M-j_pa02.png" alt="" class="pa890">
+            </div>
+
+            <div class="gu90">
+                <img src="img/M-j_gu02.png" alt="" class="gu900">
+                <img src="img/M-j_ch02.png" alt="" class="ch900">
+                <img src="img/M-j_pa02.png" alt="" class="pa900">
+            </div>
+
+            <div class="gu91">
+                <img src="img/M-j_gu02.png" alt="" class="gu910">
+                <img src="img/M-j_ch02.png" alt="" class="ch910">
+                <img src="img/M-j_pa02.png" alt="" class="pa910">
+            </div>
+
+            <div class="gu92">
+                <img src="img/M-j_gu02.png" alt="" class="gu920">
+                <img src="img/M-j_ch02.png" alt="" class="ch920">
+                <img src="img/M-j_pa02.png" alt="" class="pa920">
+            </div>
+
+            <div class="gu93">
+                <img src="img/M-j_gu02.png" alt="" class="gu930">
+                <img src="img/M-j_ch02.png" alt="" class="ch930">
+                <img src="img/M-j_pa02.png" alt="" class="pa930">
+            </div>
+
+            <div class="gu94">
+                <img src="img/M-j_gu02.png" alt="" class="gu940">
+                <img src="img/M-j_ch02.png" alt="" class="ch940">
+                <img src="img/M-j_pa02.png" alt="" class="pa940">
+            </div>
+
+            <div class="gu95">
+                <img src="img/M-j_gu02.png" alt="" class="gu950">
+                <img src="img/M-j_ch02.png" alt="" class="ch950">
+                <img src="img/M-j_pa02.png" alt="" class="pa950">
+            </div>
+
+            <div class="gu96">
+                <img src="img/M-j_gu02.png" alt="" class="gu960">
+                <img src="img/M-j_ch02.png" alt="" class="ch960">
+                <img src="img/M-j_pa02.png" alt="" class="pa960">
+            </div>
+
+            <div class="gu97">
+                <img src="img/M-j_gu02.png" alt="" class="gu970">
+                <img src="img/M-j_ch02.png" alt="" class="ch970">
+                <img src="img/M-j_pa02.png" alt="" class="pa970">
+            </div>
+
+            <div class="gu98">
+                <img src="img/M-j_gu02.png" alt="" class="gu980">
+                <img src="img/M-j_ch02.png" alt="" class="ch980">
+                <img src="img/M-j_pa02.png" alt="" class="pa980">
+            </div>
+
+            <div class="gu99a">
+                <img src="img/M-j_gu02.png" alt="" class="gu990">
+                <img src="img/M-j_ch02.png" alt="" class="ch990">
+                <img src="img/M-j_pa02.png" alt="" class="pa990">
+            </div>
+
+            <div class="gu100">
+                <img src="img/M-j_gu02.png" alt="" class="gu1000">
+                <img src="img/M-j_ch02.png" alt="" class="ch1000">
+                <img src="img/M-j_pa02.png" alt="" class="pa1000">
+            </div>
+
+            <div class="gu101">
+                <img src="img/M-j_gu02.png" alt="" class="gu1010">
+                <img src="img/M-j_ch02.png" alt="" class="ch1010">
+                <img src="img/M-j_pa02.png" alt="" class="pa1010">
+            </div>
+
+            <div class="gu102">
+                <img src="img/M-j_gu02.png" alt="" class="gu1020">
+                <img src="img/M-j_ch02.png" alt="" class="ch1020">
+                <img src="img/M-j_pa02.png" alt="" class="pa1020">
+            </div>
+
+            <div class="gu103">
+                <img src="img/M-j_gu02.png" alt="" class="gu1030">
+                <img src="img/M-j_ch02.png" alt="" class="ch1030">
+                <img src="img/M-j_pa02.png" alt="" class="pa1030">
+            </div>
+
+            <div class="gu104">
+                <img src="img/M-j_gu02.png" alt="" class="gu1040">
+                <img src="img/M-j_ch02.png" alt="" class="ch1040">
+                <img src="img/M-j_pa02.png" alt="" class="pa1040">
+            </div>
+
+            <div class="gu105">
+                <img src="img/M-j_gu02.png" alt="" class="gu1050">
+                <img src="img/M-j_ch02.png" alt="" class="ch1050">
+                <img src="img/M-j_pa02.png" alt="" class="pa1050">
+            </div>
+
+            <div class="gu106">
+                <img src="img/M-j_gu02.png" alt="" class="gu1060">
+                <img src="img/M-j_ch02.png" alt="" class="ch1060">
+                <img src="img/M-j_pa02.png" alt="" class="pa1060">
+            </div>
+
+            <div class="gu107">
+                <img src="img/M-j_gu02.png" alt="" class="gu1070">
+                <img src="img/M-j_ch02.png" alt="" class="ch1070">
+                <img src="img/M-j_pa02.png" alt="" class="pa1070">
+            </div>
+
+            <div class="gu108">
+                <img src="img/M-j_gu02.png" alt="" class="gu1080">
+                <img src="img/M-j_ch02.png" alt="" class="ch1080">
+                <img src="img/M-j_pa02.png" alt="" class="pa1080">
+            </div>
+
+            <div class="gu109">
+                <img src="img/M-j_gu02.png" alt="" class="gu1090">
+                <img src="img/M-j_ch02.png" alt="" class="ch1090">
+                <img src="img/M-j_pa02.png" alt="" class="pa1090">
+            </div>
+
+            <div class="gu110">
+                <img src="img/M-j_gu02.png" alt="" class="gu1100">
+                <img src="img/M-j_ch02.png" alt="" class="ch1100">
+                <img src="img/M-j_pa02.png" alt="" class="pa1100">
+            </div>
+
+            <div class="gu111">
+                <img src="img/M-j_gu02.png" alt="" class="gu1110">
+                <img src="img/M-j_ch02.png" alt="" class="ch1110">
+                <img src="img/M-j_pa02.png" alt="" class="pa1110">
+            </div>
+
+            <div class="gu112">
+                <img src="img/M-j_gu02.png" alt="" class="gu1120">
+                <img src="img/M-j_ch02.png" alt="" class="ch1120">
+                <img src="img/M-j_pa02.png" alt="" class="pa1120">
+            </div>
+
+            <div class="gu113">
+                <img src="img/M-j_gu02.png" alt="" class="gu1130">
+                <img src="img/M-j_ch02.png" alt="" class="ch1130">
+                <img src="img/M-j_pa02.png" alt="" class="pa1130">
+            </div>
+
+            <div class="gu114">
+                <img src="img/M-j_gu02.png" alt="" class="gu1140">
+                <img src="img/M-j_ch02.png" alt="" class="ch1140">
+                <img src="img/M-j_pa02.png" alt="" class="pa1140">
+            </div>
+
+            <div class="gu115">
+                <img src="img/M-j_gu02.png" alt="" class="gu1150">
+                <img src="img/M-j_ch02.png" alt="" class="ch1150">
+                <img src="img/M-j_pa02.png" alt="" class="pa1150">
+            </div>
+
+            <div class="gu116">
+                <img src="img/M-j_gu02.png" alt="" class="gu1160">
+                <img src="img/M-j_ch02.png" alt="" class="ch1160">
+                <img src="img/M-j_pa02.png" alt="" class="pa1160">
+            </div>
+
+            <div class="gu117">
+                <img src="img/M-j_gu02.png" alt="" class="gu1170">
+                <img src="img/M-j_ch02.png" alt="" class="ch1170">
+                <img src="img/M-j_pa02.png" alt="" class="pa1170">
+            </div>
+
+            <div class="gu118">
+                <img src="img/M-j_gu02.png" alt="" class="gu1180">
+                <img src="img/M-j_ch02.png" alt="" class="ch1180">
+                <img src="img/M-j_pa02.png" alt="" class="pa1180">
+            </div>
+
+            <div class="gu119">
+                <img src="img/M-j_gu02.png" alt="" class="gu1190">
+                <img src="img/M-j_ch02.png" alt="" class="ch1190">
+                <img src="img/M-j_pa02.png" alt="" class="pa1190">
+            </div>
+
+            <div class="gu120">
+                <img src="img/M-j_gu02.png" alt="" class="gu1200">
+                <img src="img/M-j_ch02.png" alt="" class="ch1200">
+                <img src="img/M-j_pa02.png" alt="" class="pa1200">
+            </div>
+
+            <div class="gu121">
+                <img src="img/M-j_gu02.png" alt="" class="gu1210">
+                <img src="img/M-j_ch02.png" alt="" class="ch1210">
+                <img src="img/M-j_pa02.png" alt="" class="pa1210">
+            </div>
+
+            <div class="gu122">
+                <img src="img/M-j_gu02.png" alt="" class="gu1220">
+                <img src="img/M-j_ch02.png" alt="" class="ch1220">
+                <img src="img/M-j_pa02.png" alt="" class="pa1220">
+            </div>
+
+            <div class="gu123">
+                <img src="img/M-j_gu02.png" alt="" class="gu1230">
+                <img src="img/M-j_ch02.png" alt="" class="ch1230">
+                <img src="img/M-j_pa02.png" alt="" class="pa1230">
+            </div>
+
+            <div class="gu124">
+                <img src="img/M-j_gu02.png" alt="" class="gu1240">
+                <img src="img/M-j_ch02.png" alt="" class="ch1240">
+                <img src="img/M-j_pa02.png" alt="" class="pa1240">
+            </div>
+
+            <div class="gu125">
+                <img src="img/M-j_gu02.png" alt="" class="gu1250">
+                <img src="img/M-j_ch02.png" alt="" class="ch1250">
+                <img src="img/M-j_pa02.png" alt="" class="pa1250">
+            </div>
+
+            <div class="gu126">
+                <img src="img/M-j_gu02.png" alt="" class="gu1260">
+                <img src="img/M-j_ch02.png" alt="" class="ch1260">
+                <img src="img/M-j_pa02.png" alt="" class="pa1260">
+            </div>
+
+            <div class="gu127">
+                <img src="img/M-j_gu02.png" alt="" class="gu1270">
+                <img src="img/M-j_ch02.png" alt="" class="ch1270">
+                <img src="img/M-j_pa02.png" alt="" class="pa1270">
+            </div>
+
+            <div class="gu128">
+                <img src="img/M-j_gu02.png" alt="" class="gu1280">
+                <img src="img/M-j_ch02.png" alt="" class="ch1280">
+                <img src="img/M-j_pa02.png" alt="" class="pa1280">
+            </div>
+
+            <div class="gu129">
+                <img src="img/M-j_gu02.png" alt="" class="gu1290">
+                <img src="img/M-j_ch02.png" alt="" class="ch1290">
+                <img src="img/M-j_pa02.png" alt="" class="pa1290">
+            </div>
+
+            <div class="gu130">
+                <img src="img/M-j_gu02.png" alt="" class="gu1300">
+                <img src="img/M-j_ch02.png" alt="" class="ch1300">
+                <img src="img/M-j_pa02.png" alt="" class="pa1300">
+            </div>
+
+            <div class="gu131">
+                <img src="img/M-j_gu02.png" alt="" class="gu1310">
+                <img src="img/M-j_ch02.png" alt="" class="ch1310">
+                <img src="img/M-j_pa02.png" alt="" class="pa1310">
+            </div>
+
+            <div class="gu132">
+                <img src="img/M-j_gu02.png" alt="" class="gu1320">
+                <img src="img/M-j_ch02.png" alt="" class="ch1320">
+                <img src="img/M-j_pa02.png" alt="" class="pa1320">
+            </div>
+
+            <div class="gu133">
+                <img src="img/M-j_gu02.png" alt="" class="gu1330">
+                <img src="img/M-j_ch02.png" alt="" class="ch1330">
+                <img src="img/M-j_pa02.png" alt="" class="pa1330">
+            </div>
+
+            <div class="gu134">
+                <img src="img/M-j_gu02.png" alt="" class="gu1340">
+                <img src="img/M-j_ch02.png" alt="" class="ch1340">
+                <img src="img/M-j_pa02.png" alt="" class="pa1340">
+            </div>
+
+            <div class="gu135">
+                <img src="img/M-j_gu02.png" alt="" class="gu1350">
+                <img src="img/M-j_ch02.png" alt="" class="ch1350">
+                <img src="img/M-j_pa02.png" alt="" class="pa1350">
+            </div>
+
+            <div class="gu136">
+                <img src="img/M-j_gu02.png" alt="" class="gu1360">
+                <img src="img/M-j_ch02.png" alt="" class="ch1360">
+                <img src="img/M-j_pa02.png" alt="" class="pa1360">
+            </div>
+
+            <div class="gu137">
+                <img src="img/M-j_gu02.png" alt="" class="gu1370">
+                <img src="img/M-j_ch02.png" alt="" class="ch1370">
+                <img src="img/M-j_pa02.png" alt="" class="pa1370">
+            </div>
+
+            <div class="gu138">
+                <img src="img/M-j_gu02.png" alt="" class="gu1380">
+                <img src="img/M-j_ch02.png" alt="" class="ch1380">
+                <img src="img/M-j_pa02.png" alt="" class="pa1380">
+            </div>
+
+            <div class="gu139">
+                <img src="img/M-j_gu02.png" alt="" class="gu1390">
+                <img src="img/M-j_ch02.png" alt="" class="ch1390">
+                <img src="img/M-j_pa02.png" alt="" class="pa1390">
+            </div>
+
+            <div class="gu140">
+                <img src="img/M-j_gu02.png" alt="" class="gu1400">
+                <img src="img/M-j_ch02.png" alt="" class="ch1400">
+                <img src="img/M-j_pa02.png" alt="" class="pa1400">
+            </div>
+
+            <div class="gu141">
+                <img src="img/M-j_gu02.png" alt="" class="gu1410">
+                <img src="img/M-j_ch02.png" alt="" class="ch1410">
+                <img src="img/M-j_pa02.png" alt="" class="pa1410">
+            </div>
+
+            <div class="gu142">
+                <img src="img/M-j_gu02.png" alt="" class="gu1420">
+                <img src="img/M-j_ch02.png" alt="" class="ch1420">
+                <img src="img/M-j_pa02.png" alt="" class="pa1420">
+            </div>
+
+            <div class="gu143">
+                <img src="img/M-j_gu02.png" alt="" class="gu1430">
+                <img src="img/M-j_ch02.png" alt="" class="ch1430">
+                <img src="img/M-j_pa02.png" alt="" class="pa1430">
+            </div>
+
+            <div class="gu144">
+                <img src="img/M-j_gu02.png" alt="" class="gu1440">
+                <img src="img/M-j_ch02.png" alt="" class="ch1440">
+                <img src="img/M-j_pa02.png" alt="" class="pa1440">
+            </div>
+
+            <div class="gu145">
+                <img src="img/M-j_gu02.png" alt="" class="gu1450">
+                <img src="img/M-j_ch02.png" alt="" class="ch1450">
+                <img src="img/M-j_pa02.png" alt="" class="pa1450">
+            </div>
+
+            <div class="gu146">
+                <img src="img/M-j_gu02.png" alt="" class="gu1460">
+                <img src="img/M-j_ch02.png" alt="" class="ch1460">
+                <img src="img/M-j_pa02.png" alt="" class="pa1460">
+            </div>
+
+            <div class="gu147">
+                <img src="img/M-j_gu02.png" alt="" class="gu1470">
+                <img src="img/M-j_ch02.png" alt="" class="ch1470">
+                <img src="img/M-j_pa02.png" alt="" class="pa1470">
+            </div>
+
+            <div class="gu148">
+                <img src="img/M-j_gu02.png" alt="" class="gu1480">
+                <img src="img/M-j_ch02.png" alt="" class="ch1480">
+                <img src="img/M-j_pa02.png" alt="" class="pa1480">
+            </div>
+
+            <div class="gu149">
+                <img src="img/M-j_gu02.png" alt="" class="gu1490">
+                <img src="img/M-j_ch02.png" alt="" class="ch1490">
+                <img src="img/M-j_pa02.png" alt="" class="pa1490">
+            </div>
+
+            <div class="gu150">
+                <img src="img/M-j_gu02.png" alt="" class="gu1500">
+                <img src="img/M-j_ch02.png" alt="" class="ch1500">
+                <img src="img/M-j_pa02.png" alt="" class="pa1500">
+            </div>
+
+            <div class="gu151">
+                <img src="img/M-j_gu02.png" alt="" class="gu1510">
+                <img src="img/M-j_ch02.png" alt="" class="ch1510">
+                <img src="img/M-j_pa02.png" alt="" class="pa1510">
+            </div>
+
+            <div class="gu152">
+                <img src="img/M-j_gu02.png" alt="" class="gu1520">
+                <img src="img/M-j_ch02.png" alt="" class="ch1520">
+                <img src="img/M-j_pa02.png" alt="" class="pa1520">
+            </div>
+
+            <div class="gu153">
+                <img src="img/M-j_gu02.png" alt="" class="gu1530">
+                <img src="img/M-j_ch02.png" alt="" class="ch1530">
+                <img src="img/M-j_pa02.png" alt="" class="pa1530">
+            </div>
+
+            <div class="gu154">
+                <img src="img/M-j_gu02.png" alt="" class="gu1540">
+                <img src="img/M-j_ch02.png" alt="" class="ch1540">
+                <img src="img/M-j_pa02.png" alt="" class="pa1540">
+            </div>
+
+            <div class="gu155">
+                <img src="img/M-j_gu02.png" alt="" class="gu1550">
+                <img src="img/M-j_ch02.png" alt="" class="ch1550">
+                <img src="img/M-j_pa02.png" alt="" class="pa1550">
+            </div>
+
+            <div class="gu156">
+                <img src="img/M-j_gu02.png" alt="" class="gu1560">
+                <img src="img/M-j_ch02.png" alt="" class="ch1560">
+                <img src="img/M-j_pa02.png" alt="" class="pa1560">
+            </div>
+
+            <div class="gu157">
+                <img src="img/M-j_gu02.png" alt="" class="gu1570">
+                <img src="img/M-j_ch02.png" alt="" class="ch1570">
+                <img src="img/M-j_pa02.png" alt="" class="pa1570">
+            </div>
+
+            <div class="gu158">
+                <img src="img/M-j_gu02.png" alt="" class="gu1580">
+                <img src="img/M-j_ch02.png" alt="" class="ch1580">
+                <img src="img/M-j_pa02.png" alt="" class="pa1580">
+            </div>
+
+            <div class="gu159">
+                <img src="img/M-j_gu02.png" alt="" class="gu1590">
+                <img src="img/M-j_ch02.png" alt="" class="ch1590">
+                <img src="img/M-j_pa02.png" alt="" class="pa1590">
+            </div>
+
+            <div class="gu160">
+                <img src="img/M-j_gu02.png" alt="" class="gu1600">
+                <img src="img/M-j_ch02.png" alt="" class="ch1600">
+                <img src="img/M-j_pa02.png" alt="" class="pa1600">
+            </div>
+
+            <div class="gu161">
+                <img src="img/M-j_gu02.png" alt="" class="gu1610">
+                <img src="img/M-j_ch02.png" alt="" class="ch1610">
+                <img src="img/M-j_pa02.png" alt="" class="pa1610">
+            </div>
+
+            <div class="gu162">
+                <img src="img/M-j_gu02.png" alt="" class="gu1620">
+                <img src="img/M-j_ch02.png" alt="" class="ch1620">
+                <img src="img/M-j_pa02.png" alt="" class="pa1620">
+            </div>
+
+            <div class="gu163">
+                <img src="img/M-j_gu02.png" alt="" class="gu1630">
+                <img src="img/M-j_ch02.png" alt="" class="ch1630">
+                <img src="img/M-j_pa02.png" alt="" class="pa1630">
+            </div>
+
+            <div class="gu164">
+                <img src="img/M-j_gu02.png" alt="" class="gu1640">
+                <img src="img/M-j_ch02.png" alt="" class="ch1640">
+                <img src="img/M-j_pa02.png" alt="" class="pa1640">
+            </div>
+
+            <div class="gu165">
+                <img src="img/M-j_gu02.png" alt="" class="gu1650">
+                <img src="img/M-j_ch02.png" alt="" class="ch1650">
+                <img src="img/M-j_pa02.png" alt="" class="pa1650">
+            </div>
+
+            <div class="gu166">
+                <img src="img/M-j_gu02.png" alt="" class="gu1660">
+                <img src="img/M-j_ch02.png" alt="" class="ch1660">
+                <img src="img/M-j_pa02.png" alt="" class="pa1660">
+            </div>
+
+            <div class="gu167">
+                <img src="img/M-j_gu02.png" alt="" class="gu1670">
+                <img src="img/M-j_ch02.png" alt="" class="ch1670">
+                <img src="img/M-j_pa02.png" alt="" class="pa1670">
+            </div>
+
+            <div class="gu168">
+                <img src="img/M-j_gu02.png" alt="" class="gu1680">
+                <img src="img/M-j_ch02.png" alt="" class="ch1680">
+                <img src="img/M-j_pa02.png" alt="" class="pa1680">
+            </div>
+
+            <div class="gu169">
+                <img src="img/M-j_gu02.png" alt="" class="gu1690">
+                <img src="img/M-j_ch02.png" alt="" class="ch1690">
+                <img src="img/M-j_pa02.png" alt="" class="pa1690">
+            </div>
+
+            <div class="gu170">
+                <img src="img/M-j_gu02.png" alt="" class="gu1700">
+                <img src="img/M-j_ch02.png" alt="" class="ch1700">
+                <img src="img/M-j_pa02.png" alt="" class="pa1700">
+            </div>
+
+            <div class="gu171">
+                <img src="img/M-j_gu02.png" alt="" class="gu1710">
+                <img src="img/M-j_ch02.png" alt="" class="ch1710">
+                <img src="img/M-j_pa02.png" alt="" class="pa1710">
+            </div>
+
+            <div class="gu172">
+                <img src="img/M-j_gu02.png" alt="" class="gu1720">
+                <img src="img/M-j_ch02.png" alt="" class="ch1720">
+                <img src="img/M-j_pa02.png" alt="" class="pa1720">
+            </div>
+
+            <div class="gu173">
+                <img src="img/M-j_gu02.png" alt="" class="gu1730">
+                <img src="img/M-j_ch02.png" alt="" class="ch1730">
+                <img src="img/M-j_pa02.png" alt="" class="pa1730">
+            </div>
+
+            <div class="gu174">
+                <img src="img/M-j_gu02.png" alt="" class="gu1740">
+                <img src="img/M-j_ch02.png" alt="" class="ch1740">
+                <img src="img/M-j_pa02.png" alt="" class="pa1740">
+            </div>
+
+            <div class="gu175">
+                <img src="img/M-j_gu02.png" alt="" class="gu1750">
+                <img src="img/M-j_ch02.png" alt="" class="ch1750">
+                <img src="img/M-j_pa02.png" alt="" class="pa1750">
+            </div>
+
+            <div class="gu176">
+                <img src="img/M-j_gu02.png" alt="" class="gu1760">
+                <img src="img/M-j_ch02.png" alt="" class="ch1760">
+                <img src="img/M-j_pa02.png" alt="" class="pa1760">
+            </div>
+
+            <div class="gu177">
+                <img src="img/M-j_gu02.png" alt="" class="gu1770">
+                <img src="img/M-j_ch02.png" alt="" class="ch1770">
+                <img src="img/M-j_pa02.png" alt="" class="pa1770">
+            </div>
+
+            <div class="gu178">
+                <img src="img/M-j_gu02.png" alt="" class="gu1780">
+                <img src="img/M-j_ch02.png" alt="" class="ch1780">
+                <img src="img/M-j_pa02.png" alt="" class="pa1780">
+            </div>
+
+            <div class="gu179">
+                <img src="img/M-j_gu02.png" alt="" class="gu1790">
+                <img src="img/M-j_ch02.png" alt="" class="ch1790">
+                <img src="img/M-j_pa02.png" alt="" class="pa1790">
+            </div>
+
+            <div class="gu180">
+                <img src="img/M-j_gu02.png" alt="" class="gu1800">
+                <img src="img/M-j_ch02.png" alt="" class="ch1800">
+                <img src="img/M-j_pa02.png" alt="" class="pa1800">
+            </div>
+
+            <div class="gu181">
+                <img src="img/M-j_gu02.png" alt="" class="gu1810">
+                <img src="img/M-j_ch02.png" alt="" class="ch1810">
+                <img src="img/M-j_pa02.png" alt="" class="pa1810">
+            </div>
+
+            <div class="gu182">
+                <img src="img/M-j_gu02.png" alt="" class="gu1820">
+                <img src="img/M-j_ch02.png" alt="" class="ch1820">
+                <img src="img/M-j_pa02.png" alt="" class="pa1820">
+            </div>
+
+            <div class="gu183">
+                <img src="img/M-j_gu02.png" alt="" class="gu1830">
+                <img src="img/M-j_ch02.png" alt="" class="ch1830">
+                <img src="img/M-j_pa02.png" alt="" class="pa1830">
+            </div>
+
+            <div class="gu184">
+                <img src="img/M-j_gu02.png" alt="" class="gu1840">
+                <img src="img/M-j_ch02.png" alt="" class="ch1840">
+                <img src="img/M-j_pa02.png" alt="" class="pa1840">
+            </div>
+
+            <div class="gu185">
+                <img src="img/M-j_gu02.png" alt="" class="gu1850">
+                <img src="img/M-j_ch02.png" alt="" class="ch1850">
+                <img src="img/M-j_pa02.png" alt="" class="pa1850">
+            </div>
+
+            <div class="gu186">
+                <img src="img/M-j_gu02.png" alt="" class="gu1860">
+                <img src="img/M-j_ch02.png" alt="" class="ch1860">
+                <img src="img/M-j_pa02.png" alt="" class="pa1860">
+            </div>
+
+            <div class="gu187">
+                <img src="img/M-j_gu02.png" alt="" class="gu1870">
+                <img src="img/M-j_ch02.png" alt="" class="ch1870">
+                <img src="img/M-j_pa02.png" alt="" class="pa1870">
+            </div>
+
+            <div class="gu188">
+                <img src="img/M-j_gu02.png" alt="" class="gu1880">
+                <img src="img/M-j_ch02.png" alt="" class="ch1880">
+                <img src="img/M-j_pa02.png" alt="" class="pa1880">
+            </div>
+
+            <div class="gu189">
+                <img src="img/M-j_gu02.png" alt="" class="gu1890">
+                <img src="img/M-j_ch02.png" alt="" class="ch1890">
+                <img src="img/M-j_pa02.png" alt="" class="pa1890">
+            </div>
+
+            <div class="gu190">
+                <img src="img/M-j_gu02.png" alt="" class="gu1900">
+                <img src="img/M-j_ch02.png" alt="" class="ch1900">
+                <img src="img/M-j_pa02.png" alt="" class="pa1900">
+            </div>
+
+            <div class="gu191">
+                <img src="img/M-j_gu02.png" alt="" class="gu1910">
+                <img src="img/M-j_ch02.png" alt="" class="ch1910">
+                <img src="img/M-j_pa02.png" alt="" class="pa1910">
+            </div>
+
+            <div class="gu192">
+                <img src="img/M-j_gu02.png" alt="" class="gu1920">
+                <img src="img/M-j_ch02.png" alt="" class="ch1920">
+                <img src="img/M-j_pa02.png" alt="" class="pa1920">
+            </div>
+
+            <div class="gu193">
+                <img src="img/M-j_gu02.png" alt="" class="gu1930">
+                <img src="img/M-j_ch02.png" alt="" class="ch1930">
+                <img src="img/M-j_pa02.png" alt="" class="pa1930">
+            </div>
+
+            <div class="gu194">
+                <img src="img/M-j_gu02.png" alt="" class="gu1940">
+                <img src="img/M-j_ch02.png" alt="" class="ch1940">
+                <img src="img/M-j_pa02.png" alt="" class="pa1940">
+            </div>
+
+  
+
+
+        </div>
+    </div>
+    <div class="haikei3"></div>
+
+    <div class="jibun_te">
+        <div class="jibun_gu">
+         <img src="img/M-j_gu02.png" alt="" class="guji">
+        <div class="button_gu">
+                <div class="key_gu">
+                     <h3>G</h3>
+                 </div>
+        </div>
+        </div>
+        
+        <div class="jibun_ch">
+            <img src="img/M-j_ch02.png" alt="" class="chji">
+            <div class="button_ch">
+                <div class="key_gu">
+                    <h3>T</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="jibun_pa">
+            <img src="img/M-j_pa02.png" alt="" class="paji">
+            <div class="button_pa">
+                <div class="key_pa">
+                    <h3>P</h3>
+                </div>
+            </div>
+        </div>
+
+        
+
+
+        </div>
+        </div>
+
+    
+    </div>
+
+</div>
+
+<div class="setumei"> <h1>ルール説明</h1>
+    「はじめる」を押すとゲームが始まります。 <br>
+    音楽に合わせて流れる手に対して、勝ちましょう (キーボードの"G"・"T"・"P"がそれぞれ「グー」「チョキ」「パー」に対応しています。<br>
+    勝てば200点、あいこで100点、負ければ-200点が加算されます。<br>
+    再び遊びたい時はページを更新させてください。<br>
+    多少のずれ、ポイントの加算が不思議なところは許してください。</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/aiko.js"></script>
+    
+</body>
+</html>
